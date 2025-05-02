@@ -79,13 +79,9 @@ export const Banner = () => {
                   </div>
                 </h1>
                 <p>
-                  I'm currently working at S3 Corp company with ReactJS
-                  Developer role. I work on E-commerce project with Singapore
-                  client. I want to build a big system, scalable system. I want
-                  to use my experience to bring the most profit to my company.
-                  In the next 5 years, I want to become a team leader or higher
-                  title. If I have a chance I will go abroad to work to approach
-                  the new world's technology.
+                Aim to build scalable systems and contribute to the growth of the company using my expertise in ReactJS, NextJS.
+                Aspire to take on leadership roles, such as Team Leader, within the next five years.
+                Open to international opportunities to gain exposure to global technologies and best practices.
                 </p>
                 <button onClick={() => console.log("connect")}>
                   Let’s Connect <ArrowRightCircle size={25} />

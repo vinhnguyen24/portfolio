@@ -47,7 +47,7 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>
                 {" "}
-                I have experience about ReactJS, ReactNative, Redux, HTML, CSS,
+                I have experience about ReactJS, NextJS, ReactNative, Redux, HTML, CSS,
                 JQuery, <br></br> Javascript, Bootstrap, NodeJS, Git
               </p>
               <Carousel
@@ -65,12 +65,13 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>CSS, Bootstrap</h5>
+                  <h5>NextJS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>NodeJS</h5>
+                  <img src={meter3} alt="Image" />
+                  <h5>CSS, Bootstrap</h5>
                 </div>
+
               </Carousel>
             </div>
           </div>

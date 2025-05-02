@@ -38,7 +38,7 @@ export const Projects = () => {
             <div data-aos="fade-up">
               <h2>Projects</h2>
               <p>
-                I'm now working as a ReactJS Developer for a Singapore customer
+                I'm now working as a Frontend Developer for a Singapore customer
                 on an eCommerce project.
                 <br />I worked on the following projects:
               </p>

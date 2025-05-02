@@ -72,6 +72,13 @@ export const Contact = () => {
       });
   };
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/pdf/NguyenTheVinh_CV.pdf';  // Replace with your actual PDF file path
+    link.download = 'NguyenTheVinh_CV.pdf';      // Name of the downloaded file
+    link.click();
+  };
+
   return (
     <section className="contact" id="connect" data-aos="fade-up">
       <Container>
@@ -110,7 +117,7 @@ export const Contact = () => {
               </a> */}
             </div>
             <div>
-              <button className="cv-btn">
+              <button className="cv-btn" onClick={handleDownload}>
                 <span>Download CV</span>
               </button>
             </div>
